@@ -1,0 +1,53 @@
+body {
+	font-family: Palatino Linotype;
+	text-align: center;
+}
+
+#grid-all {
+	margin: 0 30% 20% 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	display: grid;
+	grid-template-rows: 1fr 10fr;
+}
+
+#grid-content {
+	display: grid;
+	grid-template-columns: 1fr 150px;
+}
+
+#menu {
+	min-width: 150px;
+	/*border: 2px dashed green;*/
+}
+
+#grid-fretboard {
+	background-color: grey;
+
+	display: grid;
+	grid-template-rows: repeat(18, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 1px;
+	grid-row-gap: 4px;
+}
+
+.note {
+	background-color: #acb0ad ;
+}
+
+.F {
+	background-color: #00A0B0;
+}
+
+.A {
+	background-color: #CC333F;
+}
+
+.C {
+	background-color: #EB6841;
+}
+
+.E {
+	background-color: #EDC951;
+}
